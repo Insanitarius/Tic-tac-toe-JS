@@ -1,6 +1,4 @@
 var flag =0;
-var xcount= 0;
-var ocount=0;
 var tempclose= 0;
 
 function clk1(){
@@ -8,14 +6,12 @@ function clk1(){
     if(!(ele.innerHTML == "x" || ele.innerHTML == "0"))
     if(flag == 0 ){
         ele.innerHTML="x";
-        xcount++;
         flag=1;
     }
     else
     {
         ele.innerHTML="0";
         flag=0;
-        ocount++;
     }
 }
 function clk2(){
@@ -24,13 +20,11 @@ function clk2(){
     if(flag == 0){
         ele.innerHTML="x";
         flag=1;
-        xcount++;
     }
     else
     {
         ele.innerHTML="0";
         flag=0;
-        ocount++;
     }
     
 }
@@ -40,13 +34,11 @@ function clk3(){
     if(flag == 0){
         ele.innerHTML="x";
         flag=1;
-        xcount++;
     }
     else
     {
         ele.innerHTML="0";
         flag=0;
-        ocount++;
     }
 }
 function clk4(){
@@ -55,13 +47,11 @@ function clk4(){
     if(flag == 0){
         ele.innerHTML="x";
         flag=1;
-        xcount++;
     }
     else
     {
         ele.innerHTML="0";
         flag=0;
-        ocount++;
     }
 }
 function clk5(){
@@ -70,13 +60,11 @@ function clk5(){
     if(flag == 0){
         ele.innerHTML="x";
         flag=1;
-        xcount++;
     }
     else
     {
         ele.innerHTML="0";
         flag=0;
-        ocount++;
     }
 }
 function clk6(){
@@ -85,13 +73,11 @@ function clk6(){
     if(flag == 0){
         ele.innerHTML="x";
         flag=1;
-        xcount++;
     }
     else
     {
         ele.innerHTML="0";
         flag=0;
-        ocount++;
     }
 }
 function clk7(){
@@ -100,13 +86,11 @@ function clk7(){
     if(flag == 0){
         ele.innerHTML="x";
         flag=1;
-        xcount++;
     }
     else
     {
         ele.innerHTML="0";
         flag=0;
-        ocount++;
     }
 }
 function clk8(){
@@ -115,13 +99,11 @@ function clk8(){
     if(flag == 0){
         ele.innerHTML="x";
         flag=1;
-        xcount++;
     }
     else
     {
         ele.innerHTML="0";
         flag=0;
-        ocount++;
     }
 }
 function clk9(){
@@ -130,18 +112,15 @@ function clk9(){
     if(flag == 0){
         ele.innerHTML="x";
         flag=1;
-        xcount++;
     }
     else
     {
         ele.innerHTML="0";
         flag=0;
-        ocount++;
     }
 }
 function reset(){
  location.reload();
-
 }
 
 function win(){
